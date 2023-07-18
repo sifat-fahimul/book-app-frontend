@@ -36,7 +36,7 @@ const Navbar = () => {
   }, [themeMode]);
 
   return (
-    <div className="relative bg-yellow-50 dark:bg-gray-900">
+    <div className="relative bg-green-50 dark:bg-gray-900">
       <div className=" dark:bg-gray-900">
         <nav className="w-full  dark:bg-transparent">
           <div className="container m-auto px-2 md:px-12 lg:px-7">
@@ -54,16 +54,16 @@ const Navbar = () => {
                   className="flex space-x-2 items-center"
                 >
                   <img
-                    src="https://png.pngtree.com/template/20190316/ourmid/pngtree-books-logo-image_79143.jpg"
+                    src="https://st2.depositphotos.com/1364916/6359/v/600/depositphotos_63590137-stock-illustration-blue-book-logo-vector.jpg"
                     className="w-12"
                     alt="tailus logo"
                     width="144"
                     height="133"
                   />
-                  <span className="text-2xl font-bold text-yellow-900 dark:text-white">
-                    Read &{" "}
-                    <span className="text-yellow-700 dark:text-yellow-300">
-                      Discover
+                  <span className="text-2xl font-bold text-teal-800 dark:text-white">
+                   Book{" "}
+                    <span className="text-fuchsia-900 dark:text-yellow-300">
+                      App
                     </span>
                   </span>
                 </Link>
@@ -95,45 +95,45 @@ const Navbar = () => {
               ></label>
               <div className="hidden peer-checked:flex w-full flex-col lg:flex lg:flex-row justify-end z-30 items-center gap-y-6 p-6 rounded-xl bg-white dark:bg-gray-900 lg:gap-y-0 lg:p-0 md:flex-nowrap lg:bg-transparent lg:w-7/12">
                 <div className="text-gray-600 lg:pr-4 w-full">
-                  <ul className="tracking-wide font-medium  text-sm flex flex-col gap-y-6 lg:gap-y-0 lg:flex-row w-full">
+                  <ul className="tracking-wide font-medium  text-sm flex flex-col gap-y-6 lg:gap-y-0 lg:flex-row w-full justify-end">
                     <li>
                       <Link
                         to="/"
-                        className="block md:px-4 transition dark:text-gray-300 dark:hover:text-yellow-300 hover:text-yellow-700"
+                        className="block md:px-4 transition dark:text-gray-300 dark:hover:text-yellow-300 hover:text-yellow-700 text-xl"
                       >
-                        <span>Home</span>
+                        <span >Home</span>
                       </Link>
                     </li>
                     <li>
                       <Link
                         to="/all-books"
-                        className="block md:px-4 transition dark:text-gray-300 dark:hover:text-yellow-300 hover:text-yellow-700"
+                        className="block md:px-4 transition dark:text-gray-300 dark:hover:text-yellow-300 hover:text-yellow-700 text-xl"
                       >
                         <span>All Books</span>
                       </Link>
                     </li>
-                    <li>
+                    <li className="mt-2">
                       <button
                         onClick={handleToggleTheme}
                         type="button"
                         title="Toggle Theme"
-                        className="flex items-center focus:outline-none"
+                        className="flex items-center focus:outline-none "
                       >
                         {themeMode === "dark" ? (
-                          <BiSun className="text-yellow-900 dark:text-yellow-300 text-lg" />
+                          <BiSun className="text-yellow-900 dark:text-yellow-300 text-xl" />
                         ) : (
-                          <BiMoon className="text-yellow-900 dark:text-yellow-300 text-lg" />
+                          <BiMoon className="text-yellow-900 dark:text-yellow-300 text-xl" />
                         )}
                       </button>
                     </li>
                   </ul>
                 </div>
 
-                <div className="w-full min-w-max space-y-2 border-yellow-200 lg:space-y-0 sm:w-max lg:border-l dark:lg:border-gray-700">
+                <div className="w-full min-w-max space-y-2 border-black lg:space-y-0 sm:w-max lg:border-l dark:lg:border-gray-700 mt-2">
                   <button
                     type="button"
                     title="Start buying"
-                    className="w-full py-3 px-6 text-center rounded-full transition active:bg-yellow-200 dark:active:bg-gray-700 dark:focus:bg-gray-800 focus:bg-yellow-100 sm:w-max"
+                    className="w-full py-3 px-6 text-center rounded-full transition active:bg-yellow-200 dark:active:bg-gray-700 dark:focus:bg-gray-800 focus:bg-yellow-100 sm:w-max mt-2"
                     onClick={toggleDropdown}
                   >
                     <span className="block text-yellow-800">
@@ -163,9 +163,9 @@ const Navbar = () => {
                       onClick={handleLogout}
                       type="button"
                       title="Want to Logout?"
-                      className="w-full py-3 px-6 text-center rounded-full transition bg-yellow-300 hover:bg-yellow-100 active:bg-yellow-400 focus:bg-yellow-300 sm:w-max"
+                      className="w-full py-3 px-6 text-center rounded-full transitio sm:w-max"
                     >
-                      <span className="block text-yellow-900 font-semibold text-sm">
+                      <span className="block text-yellow-900 font-semibold text-xl">
                         LogOut{" "}
                         <RiLogoutBoxRLine className="inline-block ml-1 text-lg" />
                       </span>
@@ -175,9 +175,9 @@ const Navbar = () => {
                       <button
                         type="button"
                         title="Start buying"
-                        className="w-full py-3 px-6 text-center rounded-full transition bg-yellow-300 hover:bg-yellow-100 active:bg-yellow-400 focus:bg-yellow-300 sm:w-max"
+                        className="w-full py-3 px-6 text-center rounded-full transition sm:w-max"
                       >
-                        <span className="block text-yellow-900 font-semibold text-sm">
+                        <span className="block text-yellow-900 font-semibold text-xl">
                           Login{" "}
                           <BiLogIn className="inline-block ml-1 text-lg" />
                         </span>

@@ -4,8 +4,8 @@ import Navbar from "../pages/Navbar";
 const MainLayout = () => {
   return (
     <div>
-      <Navbar />
-      <Outlet />
+      <Navbar/>
+      <Outlet/>
     </div>
   );
 };
