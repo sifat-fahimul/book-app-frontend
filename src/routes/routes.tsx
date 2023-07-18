@@ -1,7 +1,4 @@
 import { createBrowserRouter } from "react-router-dom";
-
-// import Home from "../pages/Home";
-// import { AddNewBook } from "../pages/AddNewBook";
 import App from "../App";
 import Login from "../pages/Login";
 import Register from "../pages/Register";
@@ -10,6 +7,7 @@ import NotFound from "../pages/NotFound";
 import AllBooks from "../pages/AllBooks";
 import { AddNewBook } from "../pages/AddNewBook";
 import DetailsBook from "../pages/Details";
+import { Wishlist } from "../pages/Wishlist";
 // import { AllBooks } from "../pages/AllBooks";
 // import DetailsBook from "../components/DetailsBook";
 // import { UpdateBook } from "../components/UpdateBook";
@@ -47,10 +45,10 @@ export const routes = createBrowserRouter([
           />
         ),
       },
-      // {
-      //   path: "/wishlist",
-      //   element: <Wishlist />,
-      // },
+      {
+        path: "/wishlist",
+        element: <Wishlist />,
+      },
       // {
       //   path: "/read-soon",
       //   element: <ReadSoon />,
