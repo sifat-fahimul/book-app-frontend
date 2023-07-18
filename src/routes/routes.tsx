@@ -8,6 +8,7 @@ import Register from "../pages/Register";
 import Home from "../pages/Home";
 import NotFound from "../pages/NotFound";
 import AllBooks from "../pages/AllBooks";
+import { AddNewBook } from "../pages/AddNewBook";
 // import { AllBooks } from "../pages/AllBooks";
 // import DetailsBook from "../components/DetailsBook";
 // import { UpdateBook } from "../components/UpdateBook";
@@ -24,10 +25,10 @@ export const routes = createBrowserRouter([
         index: true,
         element: <Home />,
       },
-      // {
-      //   path: "/add-new-book",
-      //   element: <AddNewBook />,
-      // },
+      {
+        path: "/add-new-book",
+        element: <AddNewBook />,
+      },
       {
         path: "/all-books",
         element: <AllBooks />,
