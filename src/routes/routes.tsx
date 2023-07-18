@@ -9,6 +9,7 @@ import Home from "../pages/Home";
 import NotFound from "../pages/NotFound";
 import AllBooks from "../pages/AllBooks";
 import { AddNewBook } from "../pages/AddNewBook";
+import DetailsBook from "../pages/Details";
 // import { AllBooks } from "../pages/AllBooks";
 // import DetailsBook from "../components/DetailsBook";
 // import { UpdateBook } from "../components/UpdateBook";
@@ -33,19 +34,19 @@ export const routes = createBrowserRouter([
         path: "/all-books",
         element: <AllBooks />,
       },
-      // {
-      //   path: "/book-details/:id",
-      //   element: (
-      //     <DetailsBook
-      //       _id={""}
-      //       title={""}
-      //       author={""}
-      //       genre={""}
-      //       publicationDate={""}
-      //       reviews={[]}
-      //     />
-      //   ),
-      // },
+      {
+        path: "/book-details/:id",
+        element: (
+          <DetailsBook
+            _id={""}
+            title={""}
+            author={""}
+            genre={""}
+            publicationDate={""}
+            reviews={[]}
+          />
+        ),
+      },
       // {
       //   path: "/wishlist",
       //   element: <Wishlist />,
