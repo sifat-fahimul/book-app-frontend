@@ -1,0 +1,72 @@
+[
+    {
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "genre": "Fiction",
+        "publicationDate": "1960-07-11",
+        "reviews": []
+    },
+    {
+        "title": "1984",
+        "author": "George Orwell",
+        "genre": "Science Fiction",
+        "publicationDate": "1949-06-08",
+        "reviews": []
+    },
+    {
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "genre": "Fiction",
+        "publicationDate": "1925-04-10",
+        "reviews": []
+    },
+    {
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "genre": "Romance",
+        "publicationDate": "1813-01-28",
+        "reviews": []
+    },
+    {
+        "title": "To the Lighthouse",
+        "author": "Virginia Woolf",
+        "genre": "Fiction",
+        "publicationDate": "1927-05-05",
+        "reviews": []
+    },
+    {
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "genre": "Fiction",
+        "publicationDate": "1951-07-16",
+        "reviews": []
+    },
+    {
+        "title": "Moby-Dick",
+        "author": "Herman Melville",
+        "genre": "Adventure",
+        "publicationDate": "1851-10-18",
+        "reviews": []
+    },
+    {
+        "title": "Brave New World",
+        "author": "Aldous Huxley",
+        "genre": "Science Fiction",
+        "publicationDate": "1932-06-18",
+        "reviews": []
+    },
+    {
+        "title": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "genre": "Fantasy",
+        "publicationDate": "1954-07-29",
+        "reviews": []
+    },
+    {
+        "title": "Jane Eyre",
+        "author": "Charlotte Brontë",
+        "genre": "Gothic",
+        "publicationDate": "1847-10-16",
+        "reviews": []
+    }
+]
