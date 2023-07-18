@@ -9,6 +9,7 @@ import { AddNewBook } from "../pages/AddNewBook";
 import DetailsBook from "../pages/Details";
 import { Wishlist } from "../pages/Wishlist";
 import { UpdateBook } from "../pages/UpdateBook";
+import { ReadSoon } from "../pages/ReadSoon";
 // import { AllBooks } from "../pages/AllBooks";
 // import DetailsBook from "../components/DetailsBook";
 // import { UpdateBook } from "../components/UpdateBook";
@@ -50,10 +51,10 @@ export const routes = createBrowserRouter([
         path: "/wishlist",
         element: <Wishlist />,
       },
-      // {
-      //   path: "/read-soon",
-      //   element: <ReadSoon />,
-      // },
+      {
+        path: "/read-soon",
+        element: <ReadSoon />,
+      },
       {
         path: "/update-book/:id",
         element: <UpdateBook />,
