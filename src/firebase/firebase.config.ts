@@ -2,12 +2,12 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBoIDteDUbq35dYO3wYpBxlMBROFzsWCIA",
-  authDomain: "book-catalog-8f1db.firebaseapp.com",
-  projectId: "book-catalog-8f1db",
-  storageBucket: "book-catalog-8f1db.appspot.com",
-  messagingSenderId: "413002158115",
-  appId: "1:413002158115:web:460457adb0bdcdd85c2196",
+  apiKey: "AIzaSyDsqN8u1B5M9_e-dMMzcVdO5Sq5it9KOJc",
+  authDomain: "book-app-63464.firebaseapp.com",
+  projectId: "book-app-63464",
+  storageBucket: "book-app-63464.appspot.com",
+  messagingSenderId: "377997819808",
+  appId: "1:377997819808:web:bf9eab317710db6e63aec5",
 };
 
 const app = initializeApp(firebaseConfig);
