@@ -7,6 +7,7 @@ import Login from "../pages/Login";
 import Register from "../pages/Register";
 import Home from "../pages/Home";
 import NotFound from "../pages/NotFound";
+import AllBooks from "../pages/AllBooks";
 // import { AllBooks } from "../pages/AllBooks";
 // import DetailsBook from "../components/DetailsBook";
 // import { UpdateBook } from "../components/UpdateBook";
@@ -27,10 +28,10 @@ export const routes = createBrowserRouter([
       //   path: "/add-new-book",
       //   element: <AddNewBook />,
       // },
-      // {
-      //   path: "/all-books",
-      //   element: <AllBooks />,
-      // },
+      {
+        path: "/all-books",
+        element: <AllBooks />,
+      },
       // {
       //   path: "/book-details/:id",
       //   element: (
