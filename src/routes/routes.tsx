@@ -5,10 +5,12 @@ import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
 import Login from "../pages/Login";
 import Register from "../pages/Register";
+import Home from "../pages/Home";
+import NotFound from "../pages/NotFound";
 // import { AllBooks } from "../pages/AllBooks";
 // import DetailsBook from "../components/DetailsBook";
 // import { UpdateBook } from "../components/UpdateBook";
-// import { NotFound } from "../components/NotFound";
+
 // import { Wishlist } from "../components/Wishlist";
 // import { ReadSoon } from "../components/ReadSoon";
 
@@ -17,10 +19,10 @@ export const routes = createBrowserRouter([
     path: "/",
     element: <App />,
     children: [
-      // {
-      //   index: true,
-      //   element: <Home />,
-      // },
+      {
+        index: true,
+        element: <Home />,
+      },
       // {
       //   path: "/add-new-book",
       //   element: <AddNewBook />,
@@ -62,10 +64,10 @@ export const routes = createBrowserRouter([
         path: "/sign-up",
         element: <Register />,
       },
-      // {
-      //   path: "*",
-      //   element: <NotFound />,
-      // },
+      {
+        path: "*",
+        element: <NotFound />,
+      },
     ],
   },
 ]);

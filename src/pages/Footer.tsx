@@ -5,11 +5,11 @@ const Footer = () => {
           <div className="md:px-12 lg:px-28">
             <div className="container m-auto space-y-6  ">
               <img
-                src="https://png.pngtree.com/template/20190316/ourmid/pngtree-books-logo-image_79143.jpg"
+                src="https://st2.depositphotos.com/1364916/6359/v/600/depositphotos_63590137-stock-illustration-blue-book-logo-vector.jpg"
                 alt="logo tailus"
                 className="m-auto w-12"
               />
-              <ul
+              {/* <ul
                 role="list"
                 className="flex flex-col items-center justify-center gap-4 py-4 sm:flex-row sm:gap-8"
               >
@@ -33,7 +33,7 @@ const Footer = () => {
                     About us
                   </a>
                 </li>
-              </ul>
+              </ul> */}
               <div className="m-auto flex w-max items-center justify-between space-x-4">
                 <a href="tel:+243996660436" aria-label="call">
                   <svg
@@ -82,7 +82,7 @@ const Footer = () => {
   
               <div className="text-center">
                 <span className="text-sm tracking-wide">
-                  Copyright © Read & Discover <span id="year"></span> | All right
+                  Copyright © Book & App <span id="year"></span> | All right
                   reserved
                 </span>
               </div>
